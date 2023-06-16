@@ -1,4 +1,4 @@
--- Active: 1685383153631@@127.0.0.1@3306@Facturacion
+-- Active: 1685375354290@@127.0.0.1@3306@psychology
 CREATE DATABASE psychology;
 DROP DATABASE Psychology;
 USE psychology;

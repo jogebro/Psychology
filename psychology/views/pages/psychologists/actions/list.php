@@ -1,5 +1,5 @@
     <?php
-        $url = "http://localhost/SkylAb-158/Psychology/apirest/controllers/psicologas.php?op=GetAll";
+        $url = "http://localhost/ArTeM02-039/Psychology/apirest/controllers/psicologas.php?op=GetAll";
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
@@ -22,7 +22,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
-                      <form class="col d-flex flex-wrap" action="http://localhost/SkylAb-158/Psychology/apirest/controllers/psicologas.php?op=Insert" method="post">
+                      <form class="col d-flex flex-wrap" action="http://localhost/ArTeM02-039/Psychology/apirest/controllers/psicologas.php?op=Insert" method="post">
                         <div class="mb-1 col-12">
                           <label for="nombre_psico" class="form-label">Nombre Psicologa: </label>
                           <input 

@@ -18,7 +18,7 @@ error_reporting(E_ALL);
             }
         }
 
-        public function getPsicoId($id){
+/*         public function getPsicoId($id){
             try {
                 $conectar = parent::Conexion();
                 parent::set_name();
@@ -29,10 +29,10 @@ error_reporting(E_ALL);
             } catch (Exception $e) {
                 return $e-> getMessage();
             }
-        }
+        } */
 
         public function insertPsico($id_psico, $nombre_psico, $edad_psico, $especialidad_psico){
-            $id_psico= $_POST["id_psico"];
+            $id_psico = $_POST["id_psico"];
             $nombre_psico = $_POST["nombre_psico"];
             $edad_psico = $_POST["edad_psico"];
             $especialidad_psico = $_POST["especialidad_psico"];

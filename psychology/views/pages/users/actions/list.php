@@ -1,5 +1,5 @@
     <?php
-        $url = "http://localhost/SkylAb-158/Psychology/apirest/controllers/campers.php?op=GetAll";
+        $url = "http://localhost/ArTeM02-039/Psychology/apirest/controllers/campers.php?op=GetAll";
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
