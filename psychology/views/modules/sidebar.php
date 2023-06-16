@@ -25,7 +25,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-                <a href="/ArTeM02-039/Psychology/psychology/" class="nav-link <?php if($routesArray[4]==""): ?> active <?php endif ?>">
+                <a href="/SkylAb-158/Psychology/psychology/" class="nav-link <?php if($routesArray[4]==""): ?> active <?php endif ?>">
                     <i class="nav-icon far fa-user"></i>
                     <p>
                         Home
@@ -34,7 +34,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="/ArTeM02-039/Psychology/psychology/users" class="nav-link <?php if($routesArray[4]=="users"): ?> active <?php endif ?>">
+                <a href="/SkylAb-158/Psychology/psychology/users" class="nav-link <?php if($routesArray[4]=="users"): ?> active <?php endif ?>">
                     <i class="nav-icon far fa-user"></i>
                     <p>
                         Users
@@ -43,7 +43,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="/ArTeM02-039/Psychology/psychology/clinicHistory" class="nav-link <?php if($routesArray[4]=="clinicHistory"): ?> active <?php endif ?>">
+                <a href="/SkylAb-158/Psychology/psychology/clinicHistory" class="nav-link <?php if($routesArray[4]=="clinicHistory"): ?> active <?php endif ?>">
                     <i class="nav-icon far fa-user"></i>
                     <p>
                         Clinic History
@@ -52,7 +52,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="/ArTeM02-039/Psychology/psychology/interviews" class="nav-link <?php if($routesArray[4]=="interviews"): ?> active <?php endif ?>">
+                <a href="/SkylAb-158/Psychology/psychology/interviews" class="nav-link <?php if($routesArray[4]=="interviews"): ?> active <?php endif ?>">
                     <i class="nav-icon far fa-user"></i>
                     <p>
                         Interviews
@@ -61,7 +61,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="/ArTeM02-039/Psychology/psychology/psychologists" class="nav-link <?php if($routesArray[4]=="psychologists"): ?> active <?php endif ?>">
+                <a href="/SkylAb-158/Psychology/psychology/psychologists" class="nav-link <?php if($routesArray[4]=="psychologists"): ?> active <?php endif ?>">
                 <i class="nav-icon far fa-user"></i>
                     <p>
                         Psychologists
@@ -70,7 +70,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="/ArTeM02-039/Psychology/psychology/treatment" class="nav-link <?php if($routesArray[4]=="treatment"): ?> active <?php endif ?>">
+                <a href="/SkylAb-158/Psychology/psychology/treatment" class="nav-link <?php if($routesArray[4]=="treatment"): ?> active <?php endif ?>">
                 <i class="far nav-icon fa-regular fa-heart"></i>
                     <p>
                         Treatment

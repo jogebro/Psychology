@@ -26,6 +26,9 @@ error_reporting(E_ALL);
         case "Insert":
             $datos = $psicologa-> insertPsico($body['id_psico'],$body['nombre_psico'],$body['edad_psico'],$body['especialidad_psico']);
             echo json_encode("insertado correctamente");
+
+            header("Location: http://localhost/SkylAb-158/Psychology/psychology/psychologists");
+
             break;
     }
 

@@ -1,6 +1,9 @@
--- Active: 1685375354290@@127.0.0.1@3306@psychology
+-- Active: 1685383153631@@127.0.0.1@3306@Facturacion
+CREATE DATABASE psychology;
+DROP DATABASE Psychology;
+USE psychology;
 CREATE TABLE psicologas(
-    id_psico INT PRIMARY KEY,
+    id_psico INT PRIMARY KEY AUTO_INCREMENT,
     nombre_psico VARCHAR(60),
     edad_psico INT,
     especialidad_psico VARCHAR(60)

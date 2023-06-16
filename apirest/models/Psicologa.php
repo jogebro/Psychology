@@ -31,8 +31,12 @@ error_reporting(E_ALL);
             }
         }
 
-        public function insertPsico($id_psico,$nombre_psico,$edad_psico,$especialidad_psico){
-            $conectar=parent::conexion();
+        public function insertPsico($id_psico, $nombre_psico, $edad_psico, $especialidad_psico){
+            $id_psico= $_POST["id_psico"];
+            $nombre_psico = $_POST["nombre_psico"];
+            $edad_psico = $_POST["edad_psico"];
+            $especialidad_psico = $_POST["especialidad_psico"];
+            $conectar=parent::Conexion();
             parent::set_name();
             $stm="INSERT INTO psicologas(id_psico,nombre_psico,edad_psico,especialidad_psico) VALUES(?,?,?,?)";
             $stm=$conectar->prepare($stm);
