@@ -4,6 +4,7 @@ ini_set("display_errors", 1);
 ini_set("display_startup_errors", 1);
 
 error_reporting(E_ALL);
+
     header('Content-Type: application/json');
 
     require_once('../config/Conectar.php');
@@ -23,7 +24,7 @@ error_reporting(E_ALL);
             echo json_encode($datos);
             break;
         case "Insert":
-            $datos = $psicologa-> insert_camper($body['id'],$body['imagen'],$body['nombre'],$body['edad'],$body['promedio'],$body['nivelCAmpus'],$body['nivelIngles'],$body['especialidad'],$body['direccion'],$body['celular'],$body['Ingles'],$body['Ser'],$body['Review'],$body['Skills'],$body['Asitencia']);
+            $datos = $psicologa-> insertPsico($body['id_psico'],$body['nombre_psico'],$body['edad_psico'],$body['especialidad_psico']);
             echo json_encode("insertado correctamente");
             break;
     }
